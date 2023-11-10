@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sound-box/static/css/main.ee5d835d.css",
+    "main.js": "/sound-box/static/js/main.3ebee3a8.js",
+    "index.html": "/sound-box/index.html",
+    "main.ee5d835d.css.map": "/sound-box/static/css/main.ee5d835d.css.map",
+    "main.3ebee3a8.js.map": "/sound-box/static/js/main.3ebee3a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee5d835d.css",
+    "static/js/main.3ebee3a8.js"
+  ]
+}
