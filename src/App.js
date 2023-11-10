@@ -1,24 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar.js'
+import DrumMachine from './components/DrumMachine.js';
+
+/* To do list:
+  Do the website Layout
+  Do the basic design or find a template
+  Create the components
+  Design the system (Javascript algorithms)
+  Implement the system
+  Fix bugs
+  Final details
+  Testing
+  Deploy web application
+  Submit project
+
+*/
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>      
+      <div className="row">
+        <div className="col bg-body-tertiary"></div>
+        <div className="col-10 bg-body-tertiary">
+          <NavBar />
+        </div>
+        <div className="col bg-body-tertiary"></div>
+      </div>
+      
+      <div className="container-md mt-5 pt-5" id="drum-machine">
+        <DrumMachine />
+      </div>
+      
+    </>
   );
 }
 
