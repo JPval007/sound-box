@@ -10,7 +10,7 @@ function ButtonMatrix() {
                     <PlayKey text="Q" source="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"/>
                 </div>
                 <div className="col">
-                    <PlayKey text="W" source="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3" />
+                    <PlayKey text="W" source="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"/>
                 </div>
                 <div className="col">
                     <PlayKey text="E" source="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"/>
